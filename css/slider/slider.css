@@ -1,0 +1,217 @@
+
+#slider-block {
+	height: 700px;	
+}
+
+.container-slider {
+   width: 100% !important;
+   position: relative;
+   padding: 0;
+   max-height: 640px !important;  /*  480 Same value as in OPTIONS the startheight parameter  */
+   overflow: hidden;
+   margin-bottom: 40px;
+}
+
+
+/*====REVOLUTION SLIDER
+=======================================================*/
+
+.tp-rightarrow, .tp-leftarrow {
+	display: block;
+	float: left;
+	width: 48px;
+	height: 48px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 48px;
+	color: #bbb;
+	margin-left: 2px;
+	position: absolute;
+	z-index: 100;
+	cursor: pointer;
+	top: 50%;	
+	margin-top: -24px;	
+	border-radius: 50%;
+	border: 2px solid;
+	-webkit-transition: all linear .2s;
+	-moz-transition: all linear .2s;
+	-o-transition: all linear .2s;
+	-ms-transition: all linear .2s;
+	transition: all linear .2s;
+}
+
+.tp-rightarrow  {
+	right: 24px;	
+}
+
+.tp-rightarrow:before  {
+	content: "\f105";
+	font-family: FontAwesome;
+}
+
+.tp-leftarrow {
+	left: 24px;
+}
+
+.tp-leftarrow:before  {
+	content: "\f104";
+	font-family: FontAwesome;
+}
+
+.tp-rightarrow:hover, .tp-leftarrow:hover {
+	color: #fff;
+	border-color: #e2492f;
+	background: #e2492f;
+} 
+
+/*====REVOLUTION SLIDER LAYER STYLES
+=======================================================*/
+
+.slider-bg-color {
+	background: #e2492f;
+}
+
+.big-title-row {
+	font-size: 73px;
+	line-height: 58px;
+	color: #212121;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: right;
+	-webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);
+}
+
+.big-title-description {
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 300;	
+	color: #4c4c4c;
+	width: 400px;
+	text-align: left;
+}
+
+.layer-h2-no {
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 800;
+}
+
+.layer-h3 {
+	font-size: 20px;
+	line-height: 50px;
+	text-transform: capitalize;
+	font-weight: 300;
+	color: #888;
+	border-bottom: 1px solid #bbb;
+}
+
+.layer-h2 {
+	font-size: 60px;
+	color: #fff;
+	display: inline-block;
+	line-height: 50px;
+	background: #e2492f;
+	padding: 20px 30px;
+	font-weight: 800;
+}
+
+.layer-h2-boxed {
+	font-size: 44px;
+	color: #fff;
+	display: inline-block;
+	line-height: 50px;
+	background: #e2492f;
+	padding: 20px 30px;
+	text-transform: none;
+}
+
+.layer-h2-tran {
+	font-size: 44px;
+	color: #fff;	
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 1px 1px 0px #333;
+}
+
+.layer-description {
+	background: #373737;
+	color: #fff;
+	font-size: 16px;
+	padding: 20px 30px;
+	max-width: 540px;
+	white-space: normal;
+	text-align: center;
+}
+
+.layer-description-tran {
+	color: #fff;
+	font-size: 17px;
+	line-height: 22px;
+	text-align: center;
+	width: 560px;
+	white-space: normal;
+	text-shadow: 1px 1px 0px #333;
+}
+
+.layer-description-transparent {
+	white-space:normal;
+	width: 660px;
+	text-shadow: 1px 1px 0px #333;
+	color: #fff;
+	text-align: center;
+}
+
+.layer-description-transparent p {
+	font-size: 17px;
+	line-height: 24px;
+}
+
+.layer-description p {
+	padding-bottom: 0;
+}
+
+.layer-buttons a {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 15px 20px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	
+	-webkit-transition: background-color .2s linear;
+	-moz-transition: background-color .2s linear;
+	-o-transition: background-color .2s linear;
+	-ms-transition: background-color .2s linear;
+	transition: background-color .2s linear;
+}
+
+.primary {background: #e2492f; }
+.secondary, .primary:hover {background: #373737;}
+.secondary:hover {background: #757575; }
+
+.slider-bullets {
+	color: #fff;
+}
+
+.slider-bullets i {
+	color: #fff;
+	display: inline-block;
+	float: left;
+	height: 43px;
+	width: 43px;
+	line-height: 43px;;
+	position: relative;
+	text-align: center;
+	font-size: 21px;
+}
+
+.slider-bullets span {
+	display: inline-block;
+	color: #373737;
+	font-size: 14px;
+	line-height: 43px;
+	background: #fff;
+	opacity: 0.8;
+	padding: 0 10px;
+}
